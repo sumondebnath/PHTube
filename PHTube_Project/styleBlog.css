@@ -1,0 +1,38 @@
+body{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 70, 62);
+    color: whitesmoke;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+div{
+    margin: 50px 20px;
+}
+li{
+    list-style-type: none;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: gray;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    margin-left: 20px;
+    text-decoration: underline gray;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1091px) {
+	div{
+        text-align: left;
+        margin-right: 55px;
+    }
+}
